@@ -1,8 +1,8 @@
 name       : ruby-i18n
-version    : 0.8.0
-release    : 1
+version    : 1.1.1
+release    : 2
 source     :
-    - https://rubygems.org/downloads/i18n-0.8.0.gem : eefbf6cbe4432e41e6ad69bd2a1f6df1130f65bf6ad036c8344b25840fa5da02
+    - https://rubygems.org/downloads/i18n-1.1.1.gem : a7b7e411cd9dbbfd0c4e2cfda9353dffbd149940528bef98d7ea3673430d97bd
 license    : MIT
 component  : programming.ruby
 summary    : RubyGem - i18n

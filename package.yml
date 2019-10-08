@@ -1,6 +1,6 @@
 name       : ruby-i18n
 version    : 1.1.1
-release    : 3
+release    : 4
 source     :
     - https://rubygems.org/downloads/i18n-1.1.1.gem : a7b7e411cd9dbbfd0c4e2cfda9353dffbd149940528bef98d7ea3673430d97bd
 license    : MIT

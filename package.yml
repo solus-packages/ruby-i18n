@@ -1,16 +1,17 @@
 name       : ruby-i18n
-version    : 1.1.1
-release    : 4
+version    : 1.8.3
+release    : 5
 source     :
-    - https://rubygems.org/downloads/i18n-1.1.1.gem : a7b7e411cd9dbbfd0c4e2cfda9353dffbd149940528bef98d7ea3673430d97bd
+    - https://rubygems.org/downloads/i18n-1.8.3.gem : 1a1cf3e65f828484a9cd9be49234e7d2e7953a0e0345f97c7c16ce8d650fd882
 license    : MIT
 component  : programming.ruby
 summary    : RubyGem - i18n
 description: |
     New wave Internationalization support for Ruby.
 builddeps  :
-    - pkgconfig(ruby-2.6)
+    - pkgconfig(ruby-2.7)
 rundeps    :
     - concurrent-ruby
 install    : |
     %gem_install
+    rm -rf $installdir/$geminstalldir/{build_info,doc,extensions}
